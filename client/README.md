@@ -22,7 +22,7 @@ cp .env.local.sample .env.local
 3. Start the app in dev mode:
 
 ```sh
-yarn start:dev
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
