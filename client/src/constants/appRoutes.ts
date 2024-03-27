@@ -1,0 +1,10 @@
+const apiPrefix = '/api';
+const authPrefix = `/auth`;
+const dashboardPrefix = `/dashboard`;
+const postPrefix = `/post`;
+export const homeRoute = '/';
+export const dashboardRoute = `${dashboardPrefix}`;
+export const postRoute = `${dashboardRoute}${postPrefix}`;
+export const authRoute = `${apiPrefix}${authPrefix}`;
+export const signInRoute = `${authRoute}/signin`;
+export const signOutRoute = `${authRoute}/signout`;
